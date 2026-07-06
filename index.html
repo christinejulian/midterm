@@ -3,55 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Favorite Things</title>
+
+    <title>Christine's Favorite Things</title>
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- External CSS -->
-    <link rel="stylesheet" href="styles.css">
-
     <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f4f8fb;
-            color: #333;
-            padding-top: 40px;
+        body{
+            font-family:'Poppins', sans-serif;
+            background:linear-gradient(to right,#dbeafe,#f0f9ff);
+            color:#222;
+            padding:40px;
         }
 
-        .container {
-            background: white;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-            max-width: 700px;
+        .container{
+            max-width:900px;
+            background:white;
+            padding:35px;
+            border-radius:15px;
+            box-shadow:0 0 15px rgba(0,0,0,.15);
         }
 
-        h1 {
-            color: #0d6efd;
+        h1{
+            color:#0d6efd;
+            text-align:center;
+            margin-bottom:20px;
         }
 
-        h2 {
-            color: #6c757d;
-            margin-bottom: 20px;
+        h2{
+            color:#198754;
+            margin-top:25px;
         }
 
-        h3 {
-            margin-top: 25px;
-            color: #198754;
+        h3{
+            color:#dc3545;
         }
 
-        a {
-            text-decoration: none;
-            color: #0d6efd;
-            font-weight: bold;
+        p{
+            font-size:18px;
+            line-height:1.7;
         }
 
-        a:hover {
-            text-decoration: underline;
+        ul li{
+            color:#6f42c1;
+            font-size:18px;
+        }
+
+        ol li{
+            color:#fd7e14;
+            font-size:18px;
+        }
+
+        a{
+            text-decoration:none;
+            font-weight:bold;
+        }
+
+        a:hover{
+            color:red;
+        }
+
+        .card{
+            margin-top:20px;
         }
     </style>
 </head>
@@ -62,14 +79,16 @@
 
     <h1>My Favorite Things</h1>
 
-    <h2>Things I Enjoy Doing</h2>
+    <h2>About Me</h2>
 
     <p>
-        Everyone has hobbies they enjoy, and these are my favorites.
-        They help me relax, have fun, and express my creativity.
+        Hello! My name is Christine. Some of my favorite hobbies are gaming,
+        drawing, and walking. These activities help me relax, stay creative,
+        and enjoy my free time. They each allow me to express myself in different
+        ways while also helping me learn new skills.
     </p>
 
-    <h3>My Favorite Hobbies (Unordered List)</h3>
+    <h3>My Favorite Hobbies</h3>
 
     <ul>
         <li>🎮 Gaming</li>
@@ -77,23 +96,56 @@
         <li>🚶 Walking</li>
     </ul>
 
-    <h3>My Favorite Hobby Ranking (Ordered List)</h3>
+    <h3>Why I Enjoy Them</h3>
 
     <ol>
-        <li>Gaming</li>
-        <li>Drawing</li>
-        <li>Walking</li>
+        <li>Gaming lets me explore new worlds and solve fun challenges.</li>
+        <li>Drawing allows me to be creative and design original characters.</li>
+        <li>Walking helps me stay healthy and clear my mind.</li>
     </ol>
 
-    <h3>Learn More</h3>
+    <div class="card p-3 mt-4 bg-light">
+        <h3>Gaming</h3>
+        <p>
+            I enjoy playing many different kinds of games, especially horror,
+            adventure, and survival games. Playing games has also inspired me
+            to create my own video games using the Unity game engine.
+        </p>
+    </div>
 
-    <p>
-        Visit the official Nintendo website to learn about games I enjoy.
+    <div class="card p-3 mt-4 bg-light">
+        <h3>Drawing</h3>
+        <p>
+            Drawing is one of my favorite creative hobbies. I enjoy sketching
+            characters, creating concept art, and practicing digital illustrations.
+            It helps improve my imagination and artistic skills.
+        </p>
+    </div>
+
+    <div class="card p-3 mt-4 bg-light">
+        <h3>Walking</h3>
+        <p>
+            Walking is a great way for me to exercise and relax. I enjoy taking
+            walks outside because it helps me stay active while giving me time
+            to think and enjoy nature.
+        </p>
+    </div>
+
+    <hr>
+
+    <h2>Useful Links</h2>
+
+    <p>Visit some of my favorite websites:</p>
+
+    <ul>
+        <li><a href="https://itch.io" target="_blank">Itch.io</a></li>
+        <li><a href="https://store.steampowered.com" target="_blank">Steam</a></li>
+        <li><a href="https://github.com" target="_blank">GitHub</a></li>
+    </ul>
+
+    <p class="text-center mt-4">
+        <strong>Created by Christine Julian</strong>
     </p>
-
-    <a href="https://www.nintendo.com" target="_blank">
-        Visit Nintendo
-    </a>
 
 </div>
 
